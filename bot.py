@@ -3,7 +3,7 @@ import telebot
 
 mySlaveToken = '877949812:AAF1memBG6qplUprQZ3nmGORHtYWIdWQ7oQ'
 bot = telebot.TeleBot(mySlaveToken)
-
+#
 
 @bot.message_handler(content_types=["text"])
 def repeat_all_messages(message): # Название функции не играет никакой роли, в принципе
