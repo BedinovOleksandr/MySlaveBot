@@ -2,7 +2,6 @@
 import telebot
 
 mySlaveToken = '877949812:AAF1memBG6qplUprQZ3nmGORHtYWIdWQ7oQ'
-#
 bot = telebot.TeleBot(mySlaveToken)
 
 
