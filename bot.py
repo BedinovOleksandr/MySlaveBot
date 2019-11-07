@@ -1,7 +1,7 @@
 # coding: utf8
 import telebot
 
-mySlaveToken = 'your Bot token'
+mySlaveToken = 'your Bot token here'
 bot = telebot.TeleBot(mySlaveToken)
 
 
